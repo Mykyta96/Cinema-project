@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color:#621402;
+    font-family: 'Roboto', sans-serif;
+    color:white;
+}
+.container{
+    max-width:1170px;
+    margin: auto;
+}
+.header{
+    min-height: 100vh;
+    background:linear-gradient(180deg, rgba(98, 20, 2, 0.31) 0%, #621402 85.62%), url('../img/bg.png') no-repeat center top / cover;
+}
+.navbar{
+    display: flex;
+    align-items:center;
+    padding: 30px 0 30px 0;
+}
+.menu{
+    display:flex;
+    margin:0;
+    margin-left: 17px;
+}
+.menuItem{
+    color:white;
+    list-style: none;
+    margin-right:25px;
+}
+.menuItem a{
+    color:white;
+    text-decoration: none;
+}
+.user{
+    margin-left: auto;
+    color:white;
+    display: flex;
+    align-items:center;
+}
+.avatar{
+    width:33px;
+    height:33px;
+    border-radius:50%;
+    margin-left:11px;
+}
+
+/* film title */
+
+.film{
+    display:flex;
+    align-items:center;
+    margin-top: 60px;
+    color:white;
+}
+.film-title-small{
+    opacity:0.5;
+    font-size:24px;
+    line-height:150%;
+}
+.film-title{
+    font-size:36px;
+    line-height: 42px;
+    margin-top: 11px;
+    margin-bottom: 23px;
+}
+.film-discription{
+    font-size:16px;
+    line-height:150%;
+    max-width:560px;
+}
+.film-trailer{
+    margin:auto;
+}
+.film-details{
+    display:flex;
+    align-items:center;
+    margin-top: 50px;
+}
+.time{
+    display:flex;
+    align-items:center;
+}
+.time-icon{
+    margin-right: 14px;
+}
+
+.rating{
+    display:flex;
+    align-items: center;
+    margin-left: 34px;
+}
+.rating-icon{
+    margin-right: 14px;
+}
+.rating-current{
+    font-size:24px;
+    line-height:150%;
+}
+
+/* data reserv */
+
+.session{
+    margin-top: 62px;
+    padding-top: 46px;
+    padding-bottom: 63px;
+    border-top:1px solid rgba(255, 255, 255, 0.5);
+    border-bottom:1px solid rgba(255, 255, 255, 0.5);
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.session-lable{
+    display:block;
+    margin-bottom: 20px;
+}
+.session-date-block{
+    display:flex;
+}
+.session-date-item{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    border:1px solid rgba(255, 255, 255, 0.5);
+    border-radius:5px;
+    text-align:center;
+    width:90px;
+    height: 90px;
+    margin-right: 15px;
+    transition: background-color 0.2s;
+}
+.session-month{
+    font-size:16px;
+    line-height: 19px;
+}
+.session-day{
+    font-weight:900;
+    font-size:30px;
+    line-height:35px;
+}
+.session-week{
+    font-size:19px;
+    line-height:22px;
+}
+.session-date-item:hover{
+    background-color:#fe8e05;
+    color:#621402;
+}  
+
+.select{
+background: rgba(255, 255, 255, 0.15);
+border: 1px solid rgba(255, 255, 255, 0.5);
+border-radius: 5px;
+color:white;
+padding: 18px;
+cursor:pointer;
+margin-top: 15px;
+}
+.select-cinema{
+    min-width:420px;
+}
